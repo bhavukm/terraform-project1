@@ -61,7 +61,7 @@ aws dynamodb create-table --table-name tf-locks --attribute-definitions Attribut
 
 13. SSH to Bastion Host >> Create the private ssh-key file (train2.pem) >> run: chmod 400 train2.pem
 
-14. ssh -i train2.pem ec2-user@<private-ip-of-app-server>
+14. ssh -i train2.pem ec2-user@private-ip-of-app-server
 
 15. Run: sudo yum install httpd -y
 
